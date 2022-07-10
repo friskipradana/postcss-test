@@ -1,0 +1,9 @@
+article {
+  background: purple;
+  & .title {
+    font-size: 6rem;
+  }
+  & li {
+    list-style-type: none;
+  }
+}

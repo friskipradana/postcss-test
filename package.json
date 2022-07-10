@@ -1,0 +1,30 @@
+{
+  "name": "PostCSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "post": "postcss css/main.css -o dist/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-mixins": "^9.0.3",
+    "postcss-preset-env": "^7.7.2",
+    "sass": "^1.53.0",
+    "stylelint": "^14.9.1"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "stylelint": {
+    "rules": {
+      "color-no-invalid-hex": true
+    }
+  }
+}
